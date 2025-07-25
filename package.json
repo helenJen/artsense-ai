@@ -1,0 +1,13 @@
+{
+  "name": "artsense-ai",
+  "version": "1.0.0",
+  "description": "AI Art Critic using free tools",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1"
+  }
+}
