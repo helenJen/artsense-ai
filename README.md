@@ -8,20 +8,29 @@ This project is a fusion of technology and art, aimed at empowering artists, col
 
 ## 🧠 What It Does
 
-- 🖼 Upload or paste an image of an artwork
-- 💬 Get real-time AI-generated critique (mood, emotion, era, artist similarity)
-- 🧩 Style classification (e.g., Abstract, Impressionist, Cubist, etc.)
-- 🗣 Natural language feedback powered by Generative AI
-- 🖌 Tailored suggestions for improvement (if desired)
-
+- 🧠 **AI-Powered Art Critique** — Uses Claude 3 (Haiku) to interpret artworks with depth and context
+- 📸 **Image Upload** — Simple UI to upload artworks (paintings, digital art, etc.)
+- 💬 **Context-Aware Feedback** — Critiques generated based on curated prompts to ensure artistic richness
+- ☁️ **AWS Bedrock Integration** — Secure, scalable, and production-ready
+- 💡 **Low-Code Stack** — Built using React, Node.js, and GitHub Copilot-assisted development
 ---
+
+
+## 📷 Demo Screenshots
+<img width="557" height="826" alt="image" src="https://github.com/user-attachments/assets/a3ac1f00-ee88-460e-820f-b2f700376669" />
 
 ## 🚀 Live Demo
 
 _(Coming Soon)_
 
 ---
+## 🚀 Tech Stack
 
+| Frontend | Backend | AI Model | Dev Tools |
+|----------|---------|----------|-----------|
+| React (Vite) | Node.js (Express) | Claude 3 (Haiku via AWS Bedrock) | GitHub Copilot, VS Code |
+
+---
 ## 💡 Vision
 
 ArtSense AI is built with the goal of becoming:
@@ -31,14 +40,6 @@ ArtSense AI is built with the goal of becoming:
 
 ---
 
-## 🛠️ Built With
-
-- `HTML` / `CSS` / `JavaScript`
-- `OpenAI GPT` (or Hugging Face models)
-- `Firebase` for hosting & backend (planned)
-- GitHub Copilot for development assistance
-
----
 
 ## 🧩 Planned Features
 
@@ -50,9 +51,19 @@ ArtSense AI is built with the goal of becoming:
 
 ---
 
-## 📦 Installation
 
-```bash
-git clone https://github.com/helenJen/artsense-ai.git
-cd artsense-ai
-# Open index.html in your browser
+## 🧪 Try It Yourself
+
+1. Clone the repo  
+   `git clone https://github.com/yourusername/artsense-ai.git`
+2. Install dependencies and run
+   ```bash
+   cd server
+   npm install
+   cp .env.template .env  # Fill with your AWS credentials
+   npm start
+3. In another Terminal:
+   ```bash
+   cd client
+   npm install
+   npm run dev
